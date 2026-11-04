@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Bloom | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Brew <span>&</span> Bloom</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html" class="active">Contact</a>
+            <button class="theme-toggle">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">WE WOULD LOVE TO SEE YOU</p>
+            <h1>Get In <span>Touch</span></h1>
+            <p>Have a question or planning a visit? Send us a message or reserve your table.</p>
+        </section>
+
+        <section class="section contact-layout">
+            <div class="contact-info">
+                <p class="eyebrow">CONTACT DETAILS</p>
+                <h2>Let's Talk <span>Coffee</span></h2>
+                <p>We are always happy to hear from you. Reach out for bookings, questions or feedback.</p>
+                <div class="contact-detail">
+                    <span>📍</span>
+                    <div><h3>Our Location</h3><p>Enter your café address here</p></div>
+                </div>
+                <div class="contact-detail">
+                    <span>📞</span>
+                    <div><h3>Phone</h3><p>+91 00000 00000</p></div>
+                </div>
+                <div class="contact-detail">
+                    <span>✉️</span>
+                    <div><h3>Email</h3><p>hello@brewandbloom.com</p></div>
+                </div>
+                <div class="contact-detail">
+                    <span>🕒</span>
+                    <div><h3>Opening Hours</h3><p>Monday – Sunday: 9:00 AM – 10:00 PM</p></div>
+                </div>
+            </div>
+
+            <form class="booking-form" id="bookingForm">
+                <h2>Book a Table</h2>
+                <p>Fill in your details and we will confirm your booking.</p>
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+
+                <label for="date">Booking Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Booking Time</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="guests">Number of Guests</label>
+                <select id="guests" name="guests" required>
+                    <option value="">Select guests</option>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5">5 People</option>
+                    <option value="6">6 People</option>
+                    <option value="7">7 People</option>
+                    <option value="8">8 People</option>
+                </select>
+
+                <label for="message">Special Request</label>
+                <textarea id="message" name="message" rows="4" placeholder="Any special requests?"></textarea>
+
+                <button type="submit" class="btn">Confirm Booking</button>
+                <p class="form-message" id="formMessage" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">Brew <span>&</span> Bloom</a>
+        <p>Fresh brews, happy moments.</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <p class="copyright">© 2026 Brew & Bloom Café. All rights reserved.</p>
+    </footer>
+</body>
+</html>

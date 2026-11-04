@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Bloom | Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Brew <span>&</span> Bloom</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <button class="theme-toggle">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">A GLIMPSE OF OUR WORLD</p>
+            <h1>Our <span>Gallery</span></h1>
+            <p>Explore the coffee, food and moments that make Brew & Bloom special.</p>
+        </section>
+
+        <section class="section video-section">
+            <div class="section-heading">
+                <p class="eyebrow">EXPERIENCE BREW & BLOOM</p>
+                <h2>A Taste of Our <span>Café</span></h2>
+                <p>Enjoy the atmosphere, freshly brewed coffee and delicious treats.</p>
+            </div>
+
+            <div class="cafe-video-wrapper">
+                <video class="cafe-video" controls preload="metadata" poster="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200">
+                    <source src="assets/cafe-tour.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+            <p class="video-caption">Brew & Bloom — Fresh brews, happy moments.</p>
+        </section>
+
+        <section class="section">
+            <div class="section-heading">
+                <p class="eyebrow">CAPTURED MOMENTS</p>
+                <h2>Our Café <span>Moments</span></h2>
+            </div>
+
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900" alt="Coffee cup">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=900" alt="Fresh coffee">
+                <img src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=900" alt="Iced coffee">
+                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=900" alt="Cafe interior">
+                <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?w=900" alt="Pizza">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=900" alt="Croissant">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=900" alt="Chocolate cake">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900" alt="Restaurant interior">
+                <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?w=900" alt="Cafe table">
+            </div>
+        </section>
+
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox-close" aria-label="Close image">×</button>
+            <img src="" alt="Expanded gallery image" id="lightbox-image">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">Brew <span>&</span> Bloom</a>
+        <p>Fresh brews, happy moments.</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <p class="copyright">© 2026 Brew & Bloom Café. All rights reserved.</p>
+    </footer>
+</body>
+</html>

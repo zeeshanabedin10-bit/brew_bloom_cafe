@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Bloom | Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Brew <span>&</span> Bloom</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <button class="theme-toggle">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-hero">
+            <p class="eyebrow">FRESHLY MADE, JUST FOR YOU</p>
+            <h1>Our Delicious <span>Menu</span></h1>
+            <p>From your morning coffee to your favourite evening bites, find something you'll love.</p>
+            <a href="#menu-categories" class="btn">Explore Our Menu ↓</a>
+        </section>
+
+        <section class="section menu-offers">
+            <div class="section-heading">
+                <p class="eyebrow">SPECIAL DEALS</p>
+                <h2>Today's <span>Combo Offers</span></h2>
+                <p>Good food tastes even better when shared. Enjoy our special combinations.</p>
+            </div>
+            <div class="combo-grid">
+                <article class="combo-card">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=700" alt="Coffee and croissant">
+                    <div class="combo-info">
+                        <span class="offer-tag">SAVE ₹40</span>
+                        <h3>Morning Delight</h3>
+                        <p> Cappuccino + Butter Croissant</p>
+                        <div class="price-line"><strong>₹199</strong><del>₹239</del></div>
+                    </div>
+                </article>
+                <article class="combo-card">
+                    <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?w=700" alt="Pizza and drink">
+                    <div class="combo-info">
+                        <span class="offer-tag">SAVE ₹50</span>
+                        <h3>Pizza Party</h3>
+                        <p>Cheese Pizza + Cold Drink</p>
+                        <div class="price-line"><strong>₹299</strong><del>₹349</del></div>
+                    </div>
+                </article>
+                <article class="combo-card">
+                    <img src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=700" alt="Cold coffee and sandwich">
+                    <div class="combo-info">
+                        <span class="offer-tag">SAVE ₹35</span>
+                        <h3>Chill & Crunch</h3>
+                        <p>Cold Coffee + Grilled Sandwich</p>
+                        <div class="price-line"><strong>₹249</strong><del>₹284</del></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section menu-section" id="menu-categories">
+            <div class="section-heading">
+                <p class="eyebrow">EXPLORE THE FLAVOURS</p>
+                <h2>Find Your <span>Favourite</span></h2>
+                <p>Choose a category to jump directly to your favourite items.</p>
+            </div>
+
+            <nav class="category-nav">
+                <a href="#coffee">☕ Coffee</a>
+                <a href="#tea">🍵 Tea</a>
+                <a href="#cold-drinks">🥤 Cold Drinks</a>
+                <a href="#snacks">🥪 Snacks</a>
+                <a href="#pizza">🍕 Pizza</a>
+                <a href="#desserts">🍰 Desserts</a>
+            </nav>
+
+            <div class="menu-category" id="coffee">
+                <div class="category-heading">
+                    <h2>☕ Coffee</h2>
+                    <p>Freshly brewed happiness in every cup.</p>
+                </div>
+                <div class="menu-list">
+                    <article class="menu-item"><div><h3>Espresso</h3><p>Strong and rich classic coffee shot.</p></div><strong>₹99</strong></article>
+                    <article class="menu-item"><div><h3>Americano</h3><p>Espresso blended with hot water.</p></div><strong>₹119</strong></article>
+                    <article class="menu-item"><div><h3>Cappuccino</h3><p>Espresso with steamed milk and foam.</p></div><strong>₹149</strong></article>
+                    <article class="menu-item"><div><h3>Cafe Latte</h3><p>Smooth espresso with creamy milk.</p></div><strong>₹159</strong></article>
+                    <article class="menu-item"><div><h3>Mocha</h3><p>Chocolate, espresso and steamed milk.</p></div><strong>₹179</strong></article>
+                    <article class="menu-item"><div><h3>Caramel Macchiato</h3><p>Espresso with vanilla and caramel.</p></div><strong>₹189</strong></article>
+                </div>
+            </div>
+
+            <div class="menu-category" id="tea">
+                <div class="category-heading">
+                    <h2>🍵 Tea</h2>
+                    <p>A comforting cup for every mood.</p>
+                </div>
+                <div class="menu-list">
+                    <article class="menu-item"><div><h3>Masala Chai</h3><p>Traditional Indian tea with spices.</p></div><strong>₹69</strong></article>
+                    <article class="menu-item"><div><h3>Ginger Tea</h3><p>Refreshing tea with fresh ginger.</p></div><strong>₹79</strong></article>
+                    <article class="menu-item"><div><h3>Green Tea</h3><p>Light and soothing green tea.</p></div><strong>₹89</strong></article>
+                    <article class="menu-item"><div><h3>Lemon Tea</h3><p>Refreshing tea with a citrus twist.</p></div><strong>₹89</strong></article>
+                    <article class="menu-item"><div><h3>Hot Chocolate</h3><p>Warm chocolate drink with milk.</p></div><strong>₹149</strong></article>
+                </div>
+            </div>
+
+            <div class="menu-category" id="cold-drinks">
+                <div class="category-heading">
+                    <h2>🥤 Cold Drinks</h2>
+                    <p>Cool down with refreshing favourites.</p>
+                </div>
+                <div class="menu-list">
+                    <article class="menu-item"><div><h3>Classic Cold Coffee</h3><p>Chilled and creamy coffee.</p></div><strong>₹169</strong></article>
+                    <article class="menu-item"><div><h3>Chocolate Frappe</h3><p>Blended coffee with chocolate.</p></div><strong>₹189</strong></article>
+                    <article class="menu-item"><div><h3>Oreo Shake</h3><p>Cookies blended with chilled milk.</p></div><strong>₹179</strong></article>
+                    <article class="menu-item"><div><h3>Strawberry Shake</h3><p>Sweet strawberry milkshake.</p></div><strong>₹169</strong></article>
+                    <article class="menu-item"><div><h3>Fresh Lime Soda</h3><p>Fresh lime with a fizzy twist.</p></div><strong>₹99</strong></article>
+                </div>
+            </div>
+
+            <div class="menu-category" id="snacks">
+                <div class="category-heading">
+                    <h2>🥪 Snacks & Sandwiches</h2>
+                    <p>Perfect bites to pair with your drink.</p>
+                </div>
+                <div class="menu-list">
+                    <article class="menu-item"><div><h3>Veg Grilled Sandwich</h3><p>Grilled bread with fresh vegetables.</p></div><strong>₹139</strong></article>
+                    <article class="menu-item"><div><h3>Cheese Sandwich</h3><p>Toasted sandwich with melted cheese.</p></div><strong>₹159</strong></article>
+                    <article class="menu-item"><div><h3>French Fries</h3><p>Crispy golden potato fries.</p></div><strong>₹119</strong></article>
+                    <article class="menu-item"><div><h3>Peri Peri Fries</h3><p>Fries tossed in peri peri seasoning.</p></div><strong>₹139</strong></article>
+                    <article class="menu-item"><div><h3>Garlic Bread</h3><p>Toasted bread with garlic butter.</p></div><strong>₹129</strong></article>
+                    <article class="menu-item"><div><h3>Cheese Garlic Bread</h3><p>Garlic bread topped with cheese.</p></div><strong>₹159</strong></article>
+                </div>
+            </div>
+
+            <div class="menu-category" id="pizza">
+                <div class="category-heading">
+                    <h2>🍕 Pizza</h2>
+                    <p>Freshly baked with delicious toppings.</p>
+                </div>
+                <div class="menu-list">
+                    <article class="menu-item"><div><h3>Margherita Pizza</h3><p>Classic pizza with cheese and herbs.</p></div><strong>₹199</strong></article>
+                    <article class="menu-item"><div><h3>Farmhouse Pizza</h3><p>Loaded with fresh vegetables.</p></div><strong>₹249</strong></article>
+                    <article class="menu-item"><div><h3>Paneer Tikka Pizza</h3><p>Spiced paneer with cheese and sauce.</p></div><strong>₹279</strong></article>
+                    <article class="menu-item"><div><h3>Cheese Burst Pizza</h3><p>Extra cheese in every bite.</p></div><strong>₹299</strong></article>
+                </div>
+            </div>
+
+            <div class="menu-category" id="desserts">
+                <div class="category-heading">
+                    <h2>🍰 Desserts</h2>
+                    <p>Something sweet to finish your day.</p>
+                </div>
+                <div class="menu-list">
+                    <article class="menu-item"><div><h3>Chocolate Brownie</h3><p>Soft and rich chocolate brownie.</p></div><strong>₹129</strong></article>
+                    <article class="menu-item"><div><h3>Chocolate Lava Cake</h3><p>Warm cake with a gooey centre.</p></div><strong>₹159</strong></article>
+                    <article class="menu-item"><div><h3>Blueberry Cheesecake</h3><p>Creamy cheesecake with blueberry topping.</p></div><strong>₹189</strong></article>
+                    <article class="menu-item"><div><h3>Chocolate Muffin</h3><p>Soft muffin with chocolate chips.</p></div><strong>₹99</strong></article>
+                    <article class="menu-item"><div><h3>Chocolate Waffle</h3><p>Crispy waffle with chocolate sauce.</p></div><strong>₹179</strong></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <p class="eyebrow">GOOD FOOD, GOOD COMPANY</p>
+            <h2>Found Your Favourite?</h2>
+            <p>Visit us and enjoy your favourite Brew & Bloom treats.</p>
+            <a href="contact.html" class="btn">Book a Table</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">Brew <span>&</span> Bloom</a>
+        <p>Fresh brews, happy moments.</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <p class="copyright">© 2026 Brew & Bloom Café. All rights reserved.</p>
+    </footer>
+</body>
+</html>
